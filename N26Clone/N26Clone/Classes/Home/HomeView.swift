@@ -15,7 +15,24 @@ struct HomeView: View {
             HomeHeaderView(viewModel: viewModel.headerViewModel)
                 .padding()
             
-            Spacer()
+            ScrollView {
+                LazyVStack(alignment: .leading) {
+                    HomeHeaderButtonsView()
+                    
+                    // TODO: Show transactions
+                    ForEach(1..<100) { i in
+                        if ((i % .random(in: 1...10)) == 0) {
+                            Text("10. Januar")
+                                .font(.headline)
+                                .bold()
+                                .padding()
+                        }
+                        
+                        HomeTransactionView()
+                            .padding()
+                    }
+                }
+            }
         }
     }
 }

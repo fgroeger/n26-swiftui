@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3E8727262F7677005173C1 /* HomeHeaderButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E8726262F7677005173C1 /* HomeHeaderButtonsView.swift */; };
+		1F3E872A262F778E005173C1 /* HomeTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E8729262F778E005173C1 /* HomeTransactionView.swift */; };
+		1F88011C25BB13FA0066DE0E /* HomeCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88011B25BB13FA0066DE0E /* HomeCircleButton.swift */; };
 		1FBA2E5725BA3DDC001B9D6E /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA2E5625BA3DDC001B9D6E /* HomeHeaderView.swift */; };
 		1FFA910925BA379F00595FEC /* N26CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA910825BA379F00595FEC /* N26CloneApp.swift */; };
 		1FFA910B25BA379F00595FEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFA910A25BA379F00595FEC /* ContentView.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F3E8726262F7677005173C1 /* HomeHeaderButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderButtonsView.swift; sourceTree = "<group>"; };
+		1F3E8729262F778E005173C1 /* HomeTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTransactionView.swift; sourceTree = "<group>"; };
+		1F88011B25BB13FA0066DE0E /* HomeCircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCircleButton.swift; sourceTree = "<group>"; };
 		1FBA2E5625BA3DDC001B9D6E /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		1FFA910525BA379F00595FEC /* N26Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = N26Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFA910825BA379F00595FEC /* N26CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N26CloneApp.swift; sourceTree = "<group>"; };
@@ -87,6 +93,9 @@
 			children = (
 				1FFA911A25BA3C5100595FEC /* HomeView.swift */,
 				1FBA2E5625BA3DDC001B9D6E /* HomeHeaderView.swift */,
+				1F88011B25BB13FA0066DE0E /* HomeCircleButton.swift */,
+				1F3E8726262F7677005173C1 /* HomeHeaderButtonsView.swift */,
+				1F3E8729262F778E005173C1 /* HomeTransactionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,6 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FBA2E5725BA3DDC001B9D6E /* HomeHeaderView.swift in Sources */,
+				1F3E872A262F778E005173C1 /* HomeTransactionView.swift in Sources */,
+				1F88011C25BB13FA0066DE0E /* HomeCircleButton.swift in Sources */,
+				1F3E8727262F7677005173C1 /* HomeHeaderButtonsView.swift in Sources */,
 				1FFA911B25BA3C5100595FEC /* HomeView.swift in Sources */,
 				1FFA910B25BA379F00595FEC /* ContentView.swift in Sources */,
 				1FFA910925BA379F00595FEC /* N26CloneApp.swift in Sources */,
