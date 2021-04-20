@@ -20,14 +20,23 @@ struct HomeHeaderView: View {
                 Spacer()
                 
                 HStack {
-                    Image(systemName: "magnifyingglass")
+                    Button(action: {}) {
+                        Image(systemName: "magnifyingglass")
+                    }
+                    .foregroundColor(.primary)
                     
-                    Image(systemName: "list.bullet")
+                    Button(action: {}) {
+                        Image(systemName: "list.bullet")
+                    }
+                    .foregroundColor(.primary)
                     
                     Divider()
                         .frame(height: 20)
                     
-                    Image(systemName: "person")
+                    Button(action: {}) {
+                        Image(systemName: "person")
+                    }
+                    .foregroundColor(.primary)
                 }
                 .imageScale(.large)
             }
